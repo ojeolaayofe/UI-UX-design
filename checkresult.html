@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylecr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="humanform">
+        <img class="imghuman" src="images/human.png" alt="">
+    </div>
+
+    <div class="form">
+        <h1 class="cyr">Check your <span style="color: #8C30F5;">result.</span></h1>
+
+        <a class="register" href="#">Register</a>
+
+        <form action="CheckResult">
+
+            <!-- REGISTRATION NAME -->
+
+            <label class="rn" for="registrationName">Registration Name</label> <br>
+            <input class="rnf" type="text" id="registrationName" placeholder="Your name here" name="registrationName"> <br>
+
+            <!-- REGISTRATION EMAIL -->
+            <label class="rp" for="registrationPin">Pin </label><br>
+            <input class="prf" type="password" id="registrationPin" placeholder="Your 4 Character 4 pin here " name="registrationPin">
+
+            <!-- EYE ICON -->
+            <i id="checkbtn" class="fa fa-eye openeyes" style="font-size:20px"></i>
+
+            <!-- CHECK RESULT BUTTON -->
+            <input class="checkbtn" type="submit" value="Check Result">
+
+        </form>
+    </div>
+
+    <script src="checkbtn.js"></script>
+
+
+</body>
+
+</html>

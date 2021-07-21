@@ -1,0 +1,449 @@
+            @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+            .registerl {
+                padding: 10px 16px;
+                background: #F1E4FF;
+                border-radius: 8px;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 20px;
+                text-align: center;
+                font-family: 'Manrope', sans-serif;
+                color: #8C30F5;
+            }
+            /* PAGE LAODER */
+            
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Poppins;
+                overflow-x: hidden;
+            }
+            
+            .nlogo {
+                margin-left: 150px;
+            }
+            
+            .checkr {
+                padding: 10px 16px;
+                background: #8C30F5;
+                border-radius: 8px;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 20px;
+                text-align: center;
+                font-family: 'Manrope', sans-serif;
+                color: white;
+            }
+            
+            html {
+                scroll-behavior: smooth;
+            }
+            
+            .navbar {
+                position: fixed;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+                background-color: white;
+                width: 100%;
+                height: 70px;
+                box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+                z-index: 1;
+            }
+            
+            .nav {
+                display: flex;
+                justify-content: right;
+                list-style: none;
+                margin-right: 15%;
+            }
+            
+            .logoimg {
+                width: 36px;
+                height: 36px;
+            }
+            
+            .logo {
+                flex: 1 1 auto;
+                margin-left: 10%;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: bold;
+                font-size: 25px;
+            }
+            
+            .logoimg {
+                position: relative;
+                top: 10px;
+            }
+            
+            a {
+                margin: 10px;
+                text-decoration: none;
+            }
+            
+            .banner-area {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .purpleimg {
+                position: relative;
+                float: right;
+                margin-top: -480px;
+                width: 450px;
+                height: 450px;
+                right: 70px;
+                margin-right: 130px;
+                z-index: -1;
+            }
+            
+            .dashboardimg {
+                float: right;
+                margin-top: -420px;
+                width: 550px;
+                height: 320px;
+                object-fit: cover;
+                margin-right: 50px;
+                z-index: 1;
+            }
+            
+            .sin {
+                position: absolute;
+                margin-top: -390px;
+                margin-left: 80px;
+                color: #18191F;
+                font-style: normal;
+                font-weight: bolder;
+                font-size: 70px;
+                line-height: 70px;
+                font-family: 'Manrope', sans-serif;
+            }
+            
+            .fr {
+                position: relative;
+                top: 0px;
+            }
+            
+            .psin {
+                position: absolute;
+                margin-top: -240px;
+                margin-left: 80px;
+                color: #18191F;
+                font-family: 'Manrope', sans-serif;
+                font-style: normal;
+                font-weight: bolder;
+                font-size: 15px;
+                line-height: 25px;
+            }
+            
+            .gsin {
+                position: absolute;
+                margin-top: -150px;
+                margin-left: 80px;
+            }
+            
+            .redin {
+                position: relative;
+                margin-top: -630px;
+                float: right;
+                width: 800px;
+                height: 400px;
+                z-index: -3;
+                background-image: linear-gradient(to top right, white, white, rgb(241, 158, 158));
+            }
+            
+            .yacc {
+                position: relative;
+                font-family: 'Manrope', sans-serif;
+                font-weight: 800;
+                font-size: 40px;
+                line-height: 54px;
+                font-style: normal;
+                color: #000000;
+                margin-left: 80px;
+                font-feature-settings: 'liga' off;
+                top: 80px;
+            }
+            
+            .pacc {
+                top: -70px;
+                font-family: 'Manrope', sans-serif;
+                font-style: normal;
+                font-weight: 200;
+                font-size: 15px;
+                line-height: 32px;
+                /* or 178% */
+                font-feature-settings: 'liga' off;
+                color: #000000;
+                position: relative;
+                float: right;
+                right: 60px;
+            }
+            
+            .baimg {
+                margin-left: 120px;
+                height: 300px;
+                width: 1110px;
+                object-fit: fill;
+                margin-top: -20px;
+            }
+            
+            .oach {
+                text-align: center;
+                font-size: 48px;
+                line-height: 64px;
+                font-family: 'Manrope', sans-serif;
+            }
+            
+            .idte {
+                position: relative;
+                top: -30px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 28px;
+                font-family: 'Manrope', sans-serif;
+                margin-left: 65px;
+            }
+            
+            .tvp {
+                position: relative;
+                top: -60px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 26px;
+                font-family: sans-serif;
+            }
+            
+            .imga {
+                margin-left: 60px;
+            }
+            
+            .approach {
+                display: grid;
+                grid-template-columns: repeat(4, 0.7fr);
+                margin-left: 80px;
+            }
+            
+            .mvp {
+                margin-left: 60px;
+            }
+            
+            .alu {
+                margin-left: 10px;
+            }
+            
+            .lia {
+                margin-left: 40px;
+            }
+            
+            .tmk {
+                margin-left: 40px;
+            }
+            
+            .subscribe {
+                width: 100%;
+                height: 350px;
+                background: #D6B1FF;
+                z-index: -1;
+            }
+            
+            .msub {
+                position: relative;
+                width: 80%;
+                top: 50px;
+                left: 100px;
+                height: 250px;
+                background: black;
+                justify-content: center;
+                display: flex;
+                border-radius: 20px;
+            }
+            
+            .jmp {
+                font-weight: 800;
+                font-size: 35px;
+                line-height: 50px;
+                font-family: 'Manrope', sans-serif;
+                color: white;
+            }
+            
+            .mailbb {
+                margin-left: 80px;
+                margin-top: 50px;
+            }
+            
+            .jmp {
+                float: right;
+                position: relative;
+                margin-left: 80px;
+                margin-right: 20px;
+            }
+            
+            .formi {
+                padding: 0.7rem;
+                border-radius: 5px;
+                width: 200px;
+                text-align: center;
+                border: none;
+                margin-left: 80px;
+                top: -25px;
+                position: relative;
+            }
+            
+            .btni {
+                padding: 0.7rem;
+                background: #8C30F5;
+                margin-left: -10px;
+                width: 150px;
+                border: none;
+                color: white;
+                border-radius: 5px;
+                top: -25px;
+                position: relative;
+            }
+            
+            .footer {
+                width: 100%;
+                height: 320px;
+                position: relative;
+                overflow: hidden;
+                background: #000;
+            }
+            
+            .pfo {
+                position: relative;
+                left: 100px;
+            }
+            
+            .foimg {
+                position: relative;
+                left: -80px;
+                top: 65px;
+            }
+            
+            .lii {
+                position: relative;
+                left: 100px;
+                top: 20px;
+            }
+            
+            .cr {
+                font-size: 14px;
+                line-height: 24px;
+                color: #D9DBE1;
+                font-family: 'Manrope', sans-serif;
+                position: relative;
+                left: 40px;
+                top: -40px;
+            }
+            
+            .alr {
+                font-size: 14px;
+                line-height: 24px;
+                color: #D9DBE1;
+                font-family: 'Manrope', sans-serif;
+                position: relative;
+                top: 5px;
+            }
+            
+            .icons {
+                position: relative;
+                left: 30px;
+                top: -30px;
+            }
+            
+            .udt {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                color: white;
+                font-family: 'Manrope', sans-serif;
+            }
+            
+            .stdt {
+                position: relative;
+                float: right;
+                right: 500px;
+                top: -200px;
+            }
+            
+            .ftt {
+                padding: 0.7rem;
+                border-radius: 5px;
+                width: 200px;
+                text-align: center;
+                border: none;
+                opacity: 0.4;
+            }
+            
+            .fhi {
+                position: relative;
+                float: right;
+                right: -300px;
+                top: -150px;
+            }
+            /* NAV BAR.. */
+            
+            .toggle {
+                visibility: hidden;
+            }
+            
+            .close {
+                visibility: hidden;
+            }
+            
+            @media screen and (max-width: 600px) {
+                body {
+                    overflow: hidden;
+                }
+                .toggle {
+                    visibility: visible;
+                    position: fixed;
+                    top: 30px;
+                    right: 20px;
+                    cursor: pointer;
+                }
+                .close {
+                    visibility: hidden;
+                    position: fixed;
+                    top: 30px;
+                    right: 20px;
+                    cursor: pointer;
+                }
+                .navbar {
+                    display: block;
+                    left: -100%;
+                    transition-property: left;
+                    transition-duration: 2s;
+                    width: 100%;
+                    height: 100%;
+                    background-image: linear-gradient(to top left, white, #b38edd, rgb(241, 158, 158));
+                }
+                .nav {
+                    display: block;
+                }
+                .registerl {
+                    position: relative;
+                    padding-left: 100px;
+                    padding-right: 100px;
+                    top: 150px;
+                }
+                .checkr {
+                    position: relative;
+                    padding-left: 90px;
+                    padding-right: 90px;
+                    top: 50px;
+                }
+                .logoimg {
+                    margin-top: 30px;
+                }
+            }
+            /* NAV BAR.. */
